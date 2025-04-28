@@ -2,7 +2,7 @@ export default function AboutMe() {
   return (
     <section className="my-16 flex justify-center" id="aboutme">
       <div className="flex w-11/12 flex-col gap-8">
-        <p className="text-4xl font-bold text-center">About Me</p>
+        <p className="text-center text-4xl font-bold">About Me</p>
         <p className="text-center text-balance">Hi! I'm Andy. A young passionate developer who started out creating websites in junior high school</p>
         <p className="text-center text-balance">Over the years, my focus has shifted to backend development, and in particular to the production of automation programs</p>
         <p className="text-center text-balance">I discovered blockchain by selling these kinds of scripts to individuals A futuristic technology that will revolutionize our perception of money, transparency and ownership</p>
