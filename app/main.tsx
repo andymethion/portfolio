@@ -17,7 +17,7 @@ export default function Main() {
             <p>andymethion@gmail.com</p>
           </Button>
         </div>
-        <img className="rounded-md" src="image.png" alt="image" />
+        <img className="rounded-md" src="image.png" alt="image" draggable="false" />
       </div>
     </main>
   );
