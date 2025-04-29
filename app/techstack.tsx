@@ -8,7 +8,7 @@ export default function Techstack() {
         <div className="grid grid-cols-3 gap-4">
           <Card className="col-span-2">
             <CardTitle className="pl-6">Databases</CardTitle>
-            <CardContent className="flex flex-wrap justify-center gap-4 wrap-normal">
+            <CardContent className="flex h-full flex-wrap justify-center gap-4 wrap-normal">
               <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" draggable="false" />
               <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" draggable="false" />
               <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" draggable="false" />
@@ -29,7 +29,7 @@ export default function Techstack() {
           </Card>
           <Card className="col-span-2 row-span-2">
             <CardTitle className="pl-6">Languages</CardTitle>
-            <CardContent className="flex flex-wrap justify-center gap-4 wrap-normal">
+            <CardContent className="flex h-full flex-wrap justify-center gap-4 wrap-normal">
               <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" draggable="false" />
               <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" draggable="false" />
               <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" draggable="false" />
@@ -40,7 +40,7 @@ export default function Techstack() {
           </Card>
           <Card className="col-span-2 row-span-2">
             <CardTitle className="pl-6">Websites</CardTitle>
-            <CardContent className="flex flex-wrap justify-center gap-4 wrap-normal">
+            <CardContent className="flex h-full flex-wrap justify-center gap-4 wrap-normal">
               <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" draggable="false" />
               <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" draggable="false" />
               <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" draggable="false" />
