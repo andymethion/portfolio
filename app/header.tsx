@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className="border-b-border flex h-14 justify-center border-b border-dashed">
       <div className="flex w-11/12 items-center justify-between sm:w-10/12 md:w-9/12 lg:w-8/12 xl:w-6/12 2xl:w-5/12">
-        <p>Andy's Portfolio</p>
+        <p>{"Andy's Portfolio"}</p>
         <NavigationMenu className="hidden lg:flex">
           <NavigationMenuList>
             <NavigationMenuItem>
