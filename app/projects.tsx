@@ -1,7 +1,7 @@
 export default function Projects() {
   return (
     <section className="flex justify-center py-8" id="projects">
-      <div className="flex w-11/12 flex-col gap-8">
+      <div className="flex w-11/12 flex-col gap-8 sm:w-10/12 md:w-9/12 lg:w-8/12 xl:w-6/12 2xl:w-5/12">
         <h1 className="text-center text-4xl font-bold">My Projects</h1>
         <div className="flex flex-col items-center gap-4">
           <img className="h-64 w-full rounded-md object-cover" src="twitter.jpg" alt="twitter.jpg" draggable="false" />

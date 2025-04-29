@@ -1,7 +1,7 @@
 export default function AboutMe() {
   return (
     <section className="flex justify-center py-8" id="aboutme">
-      <div className="flex w-11/12 flex-col gap-8">
+      <div className="flex w-11/12 flex-col gap-8 sm:w-10/12 md:w-9/12 lg:w-8/12 xl:w-6/12 2xl:w-5/12">
         <p className="text-center text-4xl font-bold">About Me</p>
         <p className="text-center text-balance">Hi! I'm Andy. A young passionate developer who started out creating websites in junior high school</p>
         <p className="text-center text-balance">Over the years, my focus has shifted to backend development, and in particular to the production of automation programs</p>
