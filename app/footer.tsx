@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="border-t-border flex justify-center border-t border-dashed p-4">
+    <footer className="border-t-border flex h-16 justify-center border-t border-dashed">
       <div className="flex w-11/12 items-center justify-center gap-1 sm:w-10/12 md:w-9/12 lg:w-8/12 xl:w-6/12 2xl:w-5/12">
         <p>Made with</p>
         <svg className="h-5 text-red-600" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
