@@ -6,27 +6,27 @@ export default function Header() {
   return (
     <header className="border-b-border flex h-16 justify-center border-b border-dashed">
       <div className="flex w-11/12 items-center justify-between sm:w-10/12 md:w-9/12 lg:w-8/12 xl:w-6/12 2xl:w-5/12">
-        <p>{"Andy's Portfolio"}</p>
+        <p>{"Portfolio d'Andy"}</p>
         <NavigationMenu className="hidden lg:flex">
           <NavigationMenuList>
             <NavigationMenuItem>
               <NavigationMenuLink className="cursor-pointer" href="#aboutme">
-                About Me
+                À propos de moi
               </NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <NavigationMenuLink className="cursor-pointer" href="#projects">
-                Projects
+                Mes projets
               </NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <NavigationMenuLink className="cursor-pointer" href="#techstack">
-                Techstack
+                Ma stack technique
               </NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <NavigationMenuLink className="cursor-pointer" href="#contact">
-                Contact
+                Me contacter
               </NavigationMenuLink>
             </NavigationMenuItem>
           </NavigationMenuList>
@@ -43,28 +43,28 @@ export default function Header() {
                 <DrawerClose asChild>
                   <a href="#aboutme">
                     <Button className="w-full cursor-pointer" variant="ghost">
-                      About Me
+                      À propos de moi
                     </Button>
                   </a>
                 </DrawerClose>
                 <DrawerClose asChild>
                   <a href="#projects">
                     <Button className="w-full cursor-pointer" variant="ghost">
-                      Projects
+                      Mes projects
                     </Button>
                   </a>
                 </DrawerClose>
                 <DrawerClose asChild>
                   <a href="#techstack">
                     <Button className="w-full cursor-pointer" variant="ghost">
-                      Techstack
+                      Ma stack technique
                     </Button>
                   </a>
                 </DrawerClose>
                 <DrawerClose asChild>
                   <a href="#contact">
                     <Button className="w-full cursor-pointer" variant="ghost">
-                      Contact
+                      Me contacter
                     </Button>
                   </a>
                 </DrawerClose>

@@ -2,26 +2,26 @@ export default function Projects() {
   return (
     <section className="flex justify-center py-8" id="projects">
       <div className="flex w-11/12 flex-col gap-8 sm:w-10/12 md:w-9/12 lg:w-8/12 xl:w-6/12 2xl:w-5/12">
-        <h1 className="text-center text-4xl font-bold">My Projects</h1>
+        <h1 className="text-center text-4xl font-bold">Mes projects</h1>
         <div className="flex flex-col items-center gap-4">
-          <img className="h-64 w-full rounded-md object-cover" src="twitter.jpg" alt="twitter.jpg" draggable="false" />
+          <img className="h-64 w-full rounded-md object-cover" draggable="false" src="twitter.jpg" />
           <p className="text-2xl font-bold">Twitter</p>
-          <p className="text-center text-balance">{"My first big project was to develop automation programs on Twitter and sell them by the unit to individuals on Discord or Telegram. I analyzed the https requests between my browser and Twitter's servers to replicate these requests and simulate human behavior. So, with a simple python program, I could control thousands of Twitter accounts using their connection cookies."}</p>
+          <p className="text-center text-balance">{"Mon premier projet d'envergure a consisté à développer des outils d'automatisation pour Twitter, que je vendais ensuite à l'unité à des particuliers via Discord ou Telegram. Pour cela, j'analysais les requêtes https échangées entre mon navigateur et les serveurs de Twitter, afin de les reproduire et d'imiter le comportement humain. Grâce à un simple programme Python, j'étais ainsi capable de piloter des milliers de comptes Twitter en utilisant leurs cookies de connexion."}</p>
         </div>
         <div className="flex flex-col items-center gap-4">
-          <img className="h-64 w-full rounded-md object-cover" src="the-shit-bot.jpg" alt="the-shit-bot.jpg" draggable="false" />
+          <img className="h-64 w-full rounded-md object-cover" draggable="false" src="the-shit-bot.jpg" />
           <p className="text-2xl font-bold">The Shit Bot</p>
-          <p className="text-center text-balance">{"Two years later, I discovered people doing the same thing as me, but on sneaker websites, with the aim of buying the most coveted pairs in large quantities. That's when I discovered The Shit Bot, one of the leaders in their field. Noticing that their GUI was bad, I naturally contacted them on Twitter to offer my services. With this new mission I learned to use the Angular framework, which to this day remains my favorite web framework."}</p>
+          <p className="text-center text-balance">{"Deux ans plus tard, j'ai découvert que d'autres utilisaient des techniques similaires aux miennes, mais appliquées aux sites de sneakers afin d'acheter en masse les modèles les plus recherchés. C'est à ce moment-là que j'ai entendu parler de The Shit Bot, une référence dans ce domaine. En constatant que leur interface graphique laissait à désirer, je les ai spontanément contactés sur Twitter pour leur proposer mes compétences. Cette collaboration m'a permis de me former à Angular, qui est depuis devenu mon framework web favori."}</p>
         </div>
         <div className="flex flex-col items-center gap-4">
-          <img className="h-64 w-full rounded-md object-cover" src="blockchain.webp" alt="blockchain.webp" draggable="false" />
+          <img className="h-64 w-full rounded-md object-cover" draggable="false" src="blockchain.webp" />
           <p className="text-2xl font-bold">Blockchain</p>
-          <p className="text-center text-balance">{"The crypto-currency payments I was receiving got me interested in blockchain. It helped me understand concepts such as cryptography, peer-to-peer networks and decentralization. I quickly realized that blockchain was a healthy ecosystem and that I wanted to build on it. I made small personal projects like an address tracker or an event handler."}</p>
+          <p className="text-center text-balance">{"Les paiements en crypto-monnaies que je recevais ont éveillé mon intérêt pour la blockchain. Cela m'a permis d'approfondir des notions telles que la cryptographie, les réseaux peer-to-peer et la décentralisation. J'ai vite compris que la blockchain constituait un écosystème innovant dont je souhaitais m'inspirer. J'ai ainsi réalisé quelques projets personnels, comme un traqueur d'adresses ou un gestionnaire d'événements."}</p>
         </div>
         <div className="flex flex-col items-center gap-4">
-          <img className="h-64 w-full rounded-md object-cover" src="quadtree.png" alt="quadtree.png" draggable="false" />
+          <img className="h-64 w-full rounded-md object-cover" draggable="false" src="quadtree.png" />
           <p className="text-2xl font-bold">Quadtree</p>
-          <p className="text-center text-balance">{"This project was proposed to me in my first year of computer science studies. It's a small video game in golang where you have to develop more and more features. The main aim of this exercise was to represent the ground as a quadtree, a kind of binary tree with 4 children. We also had to implement other functions such as zooming in and out, using teleporters and so on."}</p>
+          <p className="text-center text-balance">{"Ce projet m'a été proposé durant ma première année d'études en informatique. Il s'agissait de concevoir un petit jeu vidéo en Go, dans lequel il fallait progressivement ajouter de nouvelles fonctionnalités. L'objectif principal était de modéliser le sol à l'aide d'un quadtree, une structure arborescente similaire à un arbre binaire, mais avec quatre enfants par nœud. Nous avons également développé d'autres fonctionnalités, telles que le zoom ou encore l'utilisation de téléporteurs."}</p>
         </div>
       </div>
     </section>
