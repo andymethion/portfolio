@@ -25,8 +25,8 @@ export default function Header() {
               </NavigationMenuLink>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <NavigationMenuLink className="cursor-pointer" href="#socials">
-                Socials
+              <NavigationMenuLink className="cursor-pointer" href="#contact">
+                Contact
               </NavigationMenuLink>
             </NavigationMenuItem>
           </NavigationMenuList>
@@ -62,9 +62,9 @@ export default function Header() {
                   </a>
                 </DrawerClose>
                 <DrawerClose asChild>
-                  <a href="#socials">
+                  <a href="#contact">
                     <Button className="w-full cursor-pointer" variant="ghost">
-                      Socials
+                      Contact
                     </Button>
                   </a>
                 </DrawerClose>
