@@ -9,43 +9,43 @@ export default function Techstack() {
           <Card className="col-span-2">
             <CardTitle className="pl-6">Databases</CardTitle>
             <CardContent className="flex flex-wrap justify-center gap-4 wrap-normal">
-              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" />
-              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" />
-              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" />
+              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" draggable="false" />
+              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" draggable="false" />
+              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" draggable="false" />
             </CardContent>
           </Card>
           <Card className="row-span-5">
             <CardTitle className="text-center">Misc</CardTitle>
             <CardContent className="flex h-full flex-col items-center justify-center gap-4">
-              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/discordjs/discordjs-original.svg" />
-              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
-              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bun/bun-original.svg" />
-              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
-              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
-              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jetbrains/jetbrains-original.svg" />
-              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" />
-              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
+              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/discordjs/discordjs-original.svg" draggable="false" />
+              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" draggable="false" />
+              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bun/bun-original.svg" draggable="false" />
+              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" draggable="false" />
+              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" draggable="false" />
+              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jetbrains/jetbrains-original.svg" draggable="false" />
+              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" draggable="false" />
+              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" draggable="false" />
             </CardContent>
           </Card>
           <Card className="col-span-2 row-span-2">
             <CardTitle className="pl-6">Languages</CardTitle>
             <CardContent className="flex flex-wrap justify-center gap-4 wrap-normal">
-              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
-              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
-              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" />
-              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg" />
-              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" />
-              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/solidity/solidity-original.svg" />
+              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" draggable="false" />
+              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" draggable="false" />
+              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" draggable="false" />
+              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg" draggable="false" />
+              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" draggable="false" />
+              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/solidity/solidity-original.svg" draggable="false" />
             </CardContent>
           </Card>
           <Card className="col-span-2 row-span-2">
             <CardTitle className="pl-6">Websites</CardTitle>
             <CardContent className="flex flex-wrap justify-center gap-4 wrap-normal">
-              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" />
-              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" />
+              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" draggable="false" />
+              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" draggable="false" />
+              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" draggable="false" />
+              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" draggable="false" />
+              <img className="w-[calc(96*0.15625vw)] sm:w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" draggable="false" />
             </CardContent>
           </Card>
         </div>
