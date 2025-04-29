@@ -1,4 +1,5 @@
 import AboutMe from "./aboutme";
+import Footer from "./footer";
 import Header from "./header";
 import Main from "./main";
 import Projects from "./projects";
@@ -12,6 +13,7 @@ export default function Home() {
       <AboutMe />
       <Projects />
       <Techstack />
+      <Footer />
     </>
   );
 }
