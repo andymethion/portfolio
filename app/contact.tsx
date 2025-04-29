@@ -29,8 +29,8 @@ export default function Contact() {
   }
 
   return (
-    <section className="flex justify-center py-8" id="contact">
-      <div className="flex w-11/12 flex-col sm:w-10/12 md:w-9/12 lg:w-8/12 xl:w-6/12 2xl:w-5/12">
+    <section className="flex justify-center pt-8 pb-16" id="contact">
+      <div className="flex w-11/12 flex-col gap-8 sm:w-10/12 md:w-9/12 lg:w-8/12 xl:w-6/12 2xl:w-5/12">
         <p className="text-center text-4xl font-bold">Contact</p>
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="flex flex-col gap-4">
@@ -73,7 +73,9 @@ export default function Contact() {
                 </FormItem>
               )}
             ></FormField>
-            <Button className="w-full cursor-pointer" variant="secondary" type="submit">Submit</Button>
+            <Button className="w-full cursor-pointer" variant="secondary" type="submit">
+              Submit
+            </Button>
           </form>
         </Form>
       </div>
