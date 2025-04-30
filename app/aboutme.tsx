@@ -11,12 +11,12 @@ export default function AboutMe() {
         <p className="text-center text-balance">{"La blockchain est un sujet qui me passionne au point d'y penser quotidiennement. C'est dans ce contexte que je me suis également engagé dans le développement blockchain. Il s'agit probablement de l'un des écosystèmes les plus solides à ce jour."}</p>
         <p className="text-center text-balance">{"Mon projet professionnel consiste à adopter de bonnes habitudes de travail en entreprise et à perfectionner mes compétences dans des domaines que je considère comme essentiels. En parallèle, je souhaite continuer à développer mes projets personnels."}</p>
         <div className="flex gap-4">
-          <a className="flex-1" href="CV.pdf">
+          <a className="flex-1" href="CV.pdf" target="_blank">
             <Button className="w-full cursor-pointer" variant="secondary">
               Curriculum Vitae
             </Button>
           </a>
-          <a className="flex-1" href="lettre-motivation.pdf">
+          <a className="flex-1" href="lettre-motivation.pdf" target="_blank">
             <Button className="w-full cursor-pointer" variant="secondary">
               Lettre de motivation
             </Button>
