@@ -16,7 +16,7 @@ export default function AboutMe() {
               Curriculum Vitae
             </Button>
           </a>
-          <a className="flex-1" href="">
+          <a className="flex-1" href="lettre-motivation.pdf">
             <Button className="w-full cursor-pointer" variant="secondary">
               Lettre de motivation
             </Button>
