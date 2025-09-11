@@ -14,7 +14,7 @@ const sections = [
 export default function Header() {
   return (
     <header className="flex h-16 items-center justify-center">
-      <div className="flex w-11/12 justify-between sm:w-10/12 md:w-9/12 lg:w-8/12 xl:w-6/12 2xl:w-5/12">
+      <div className="flex w-11/12 justify-between sm:w-10/12 md:w-9/12 lg:w-8/12 xl:w-7/12 2xl:w-6/12">
         <p>{"Portfolio d'Andy"}</p>
         <Drawer>
           <DrawerTrigger className="lg:hidden">
