@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prettier": "prettier --plugin @trivago/prettier-plugin-sort-imports --plugin prettier-plugin-tailwindcss --print-width 9007199254740991 --write ."
+    "prettier": "prettier --plugin @trivago/prettier-plugin-sort-imports --plugin prettier-plugin-tailwindcss --write ."
   },
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",
