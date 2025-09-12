@@ -1,4 +1,4 @@
-import AboutMe from "./aboutme";
+import AboutMe from "./about-me";
 import Contact from "./contact";
 import Footer from "./footer";
 import Header from "./header";
