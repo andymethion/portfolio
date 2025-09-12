@@ -1,6 +1,17 @@
 import { Button } from "@/components/ui/button";
-import { Drawer, DrawerClose, DrawerContent, DrawerFooter, DrawerTrigger } from "@/components/ui/drawer";
-import { NavigationMenu, NavigationMenuItem, NavigationMenuLink, NavigationMenuList } from "@/components/ui/navigation-menu";
+import {
+  Drawer,
+  DrawerClose,
+  DrawerContent,
+  DrawerFooter,
+  DrawerTrigger,
+} from "@/components/ui/drawer";
+import {
+  NavigationMenu,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+} from "@/components/ui/navigation-menu";
 import { Menu } from "lucide-react";
 import Link from "next/link";
 
@@ -36,7 +47,9 @@ export default function Header() {
           <NavigationMenuList>
             {sections.map((section) => (
               <NavigationMenuItem key={section.name}>
-                <NavigationMenuLink href={section.href}>{section.name}</NavigationMenuLink>
+                <NavigationMenuLink href={section.href}>
+                  {section.name}
+                </NavigationMenuLink>
               </NavigationMenuItem>
             ))}
           </NavigationMenuList>
