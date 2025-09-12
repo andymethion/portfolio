@@ -30,7 +30,7 @@ export default function Main() {
           </Link>
         </Button>
         <div className="relative aspect-[0.889920424] w-full">
-          <Image alt="code" fill={true} src="/code.png" />
+          <Image alt="code" className="rounded-md" fill={true} src="/code.png" />
         </div>
       </div>
     </main>
