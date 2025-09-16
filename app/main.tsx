@@ -9,7 +9,7 @@ import { toast } from "sonner";
 export default function Main() {
   async function copyEmail() {
     await navigator.clipboard.writeText("andymethion@gmail.com");
-    toast("Email copié dans le presse-papiers");
+    toast("L'email a bien été copié !");
   }
 
   return (
