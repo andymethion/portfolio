@@ -15,7 +15,9 @@ export default function AboutMe() {
       <div className="flex w-11/12 flex-col items-center gap-8 sm:w-10/12 md:w-9/12 lg:w-8/12 xl:w-7/12 2xl:w-7/12">
         <p className="text-center text-4xl font-bold">{"À propos de moi"}</p>
         {texts.map((text) => (
-          <p className="text-center text-balance">{text}</p>
+          <p className="text-center text-balance" key={text}>
+            {text}
+          </p>
         ))}
         <Button asChild variant="secondary">
           <Link href="CV.pdf" target="_blank">
