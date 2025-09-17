@@ -53,7 +53,7 @@ export default function Contact() {
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    fetch(process.env.WEBHOOK!, {
+    fetch("https://discord.com/api/webhooks/1417596283400753295/FbH-aBebarMQJ6hHeQQRszlKez8thLtN_RAsEbPShuLrgj3JD8FLQ8KcTHh4Zq-ck2mS", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
