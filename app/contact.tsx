@@ -32,7 +32,7 @@ const socials = [
   },
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/andy-m%C3%A9thion-481224303/",
+    href: "https://www.linkedin.com/in/andymethion/",
     icon: Linkedin,
   },
   {
