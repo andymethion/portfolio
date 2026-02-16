@@ -1,6 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 
+type Project = {
+  image: string;
+  link: string;
+  name: string;
+  description: string;
+};
+
 const projects = [
   {
     image: "/twitter.jpg",
@@ -30,7 +37,28 @@ const projects = [
     description:
       "Ce projet m'a été proposé durant ma première année d'études en informatique. Il s'agissait de concevoir un petit jeu vidéo en Go, dans lequel il fallait progressivement ajouter de nouvelles fonctionnalités. L'objectif principal était de modéliser le sol à l'aide d'un quadtree, une structure arborescente similaire à un arbre binaire, mais avec quatre enfants par nœud. Nous avons également développé d'autres fonctionnalités, telles que le zoom ou encore l'utilisation de téléporteurs.",
   },
-];
+  {
+    image: "/qui-est-ce.png",
+    link: "https://github.com/andymethion/qui-est-ce",
+    name: "Qui Est Ce ?",
+    description:
+      "Une implémentation du jeu Qui-Est-Ce?, développée en Kotlin et JavaFX. Les joueurs peuvent démarrer une nouvelle partie ou rejoindre celle d'un ami. Les joueurs posent des questions à tour de rôle jusqu'à ce qu'ils soient prêts à désigner la personne concordante.",
+  },
+  {
+    image: "/tcp-server.png",
+    link: "https://github.com/andymethion/tcp-file-transfer-server",
+    name: "Serveur de fichier TCP",
+    description:
+      "Un serveur TCP Golang pour des transferts de fichiers. Ses principales fonctionnalités comprennent une arborescence interactive du répertoire du serveur, des téléchargements de fichiers et une partie administrateur permettant de gérer la visibilité des fichiers/dossiers.",
+  },
+  {
+    image: "/lego.png",
+    link: "https://github.com/andymethion/lego",
+    name: "Boutique Lego",
+    description:
+      "Une application CRUD full-stack utilisant PHP CodeIgniter 4 qui simule une boutique Lego. Les fonctionnalités clés comprennent la gestion des comptes utilisateurs, un panier d'achat et un panneau d'administration pour la mise à jour et la gestion dynamiques des produits.",
+  },
+] as Project[];
 
 export default function Projects() {
   return (
@@ -45,10 +73,10 @@ export default function Projects() {
               target="_blank"
             >
               <Image
-                alt={project.name}
                 className="rounded-md object-cover"
-                fill={true}
                 src={project.image}
+                alt={project.name}
+                fill={true}
               />
             </Link>
             <Link
