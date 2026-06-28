@@ -1,11 +1,11 @@
-import { ReactNode } from "react"
 import "../globals.css"
+import { ReactNode } from "react"
 import { Inter } from "next/font/google"
 import { hasLocale, NextIntlClientProvider } from "next-intl"
 import { routing } from "@/i18n/routing"
 import { notFound } from "next/navigation"
 import { cn } from "@/lib/utils"
-import { ThemeProvider } from "next-themes"
+import { ThemeProvider } from "@/components/theme-provider"
 
 interface RootLayoutProps {
   children: ReactNode
@@ -31,13 +31,13 @@ export default async function RootLayout({
 
   return (
     <html
-      lang="en"
+      lang={locale}
       suppressHydrationWarning
       className={cn(inter.variable, "antialiased", "font-sans")}
     >
       <body>
         <NextIntlClientProvider>
-          <ThemeProvider>{children}</ThemeProvider>
+          <ThemeProvider defaultTheme="dark">{children}</ThemeProvider>
         </NextIntlClientProvider>
       </body>
     </html>

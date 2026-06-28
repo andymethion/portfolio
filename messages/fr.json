@@ -1,1 +1,9 @@
-{}
+{
+  "Header": {
+    "title": "Portfolio d'Andy",
+    "aboutMe": "À Propos de Moi",
+    "myProjects": "Mes Projets",
+    "myTechstack": "Ma Stack Technique",
+    "contactMe": "Me Contacter"
+  }
+}

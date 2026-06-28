@@ -1,1 +1,9 @@
-{}
+{
+  "Header": {
+    "title": "Andy's Portfolio",
+    "aboutMe": "About Me",
+    "myProjects": "My Projects",
+    "myTechstack": "My Tech Stack",
+    "contactMe": "Contact Me"
+  }
+}
