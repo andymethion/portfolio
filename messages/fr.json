@@ -5,5 +5,9 @@
     "myProjects": "Mes Projets",
     "myTechstack": "Ma Stack Technique",
     "contactMe": "Me Contacter"
+  },
+  "Hero": {
+    "title": "Je transforme mes idées en logiciels prêts à l'emploi.",
+    "description": "Jeune développeur fullstack (mais surtout backend) passionné par la création de solutions logicielles efficaces et évolutives."
   }
 }
