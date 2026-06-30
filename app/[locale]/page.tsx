@@ -1,5 +1,6 @@
 import Header from "@/components/header"
 import Hero from "@/components/hero"
+import Contact from "@/components/contact"
 import Footer from "@/components/footer"
 
 export default function Page() {
@@ -8,6 +9,7 @@ export default function Page() {
       <Header />
       <div className="mx-auto flex w-9/10 flex-col gap-16 py-16 md:w-2xl">
         <Hero />
+        <Contact />
       </div>
       <Footer />
     </>

@@ -10,6 +10,15 @@
     "title": "Je transforme mes idées en logiciels prêts à l'emploi.",
     "description": "Jeune développeur fullstack (mais surtout backend) passionné par la création de solutions logicielles efficaces et évolutives."
   },
+  "Contact": {
+    "contactMe": "Me Contacter",
+    "yourEmail": "Votre Email",
+    "yourSubject": "Votre Sujet",
+    "yourMessage": "Votre Message",
+    "submit": "Soumettre",
+    "successMessage": "Message envoyé avec succès !",
+    "errorMessage": "Échec de l'envoi du message."
+  },
   "Footer": {
     "author": "Fait avec ❤️ par Andy Méthion"
   }

@@ -6,6 +6,7 @@ import { routing } from "@/i18n/routing"
 import { notFound } from "next/navigation"
 import { cn } from "@/lib/utils"
 import { ThemeProvider } from "@/components/theme-provider"
+import { Toaster } from "@/components/ui/sonner"
 
 interface RootLayoutProps {
   children: ReactNode
@@ -37,7 +38,10 @@ export default async function RootLayout({
     >
       <body>
         <NextIntlClientProvider>
-          <ThemeProvider defaultTheme="dark">{children}</ThemeProvider>
+          <ThemeProvider defaultTheme="dark">
+            {children}
+            <Toaster richColors />
+          </ThemeProvider>
         </NextIntlClientProvider>
       </body>
     </html>

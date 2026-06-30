@@ -1,0 +1,156 @@
+"use client"
+
+import * as z from "zod"
+import { ReactNode } from "react"
+import Email from "./icons/email"
+import Github from "./icons/github"
+import Linkedin from "./icons/linkedin"
+import { useTranslations } from "next-intl"
+import { Controller, useForm } from "react-hook-form"
+import { zodResolver } from "@hookform/resolvers/zod"
+import { sendContactMessage } from "@/lib/actions"
+import { toast } from "sonner"
+import { Field, FieldError, FieldGroup, FieldLabel } from "./ui/field"
+import { Input } from "./ui/input"
+import { Textarea } from "./ui/textarea"
+import { Button } from "./ui/button"
+import Link from "next/link"
+
+interface Social {
+  icon: () => ReactNode
+  name: string
+  href: string
+}
+
+const formSchema = z.object({
+  email: z.string().email(),
+  subject: z.string().min(8).max(64),
+  message: z.string().min(16).max(1024),
+})
+
+const socials: Social[] = [
+  {
+    icon: Email,
+    name: "Email",
+    href: "mailto:andymethion@gmail.com",
+  },
+  {
+    icon: Github,
+    name: "GitHub",
+    href: "https://github.com/andymethion",
+  },
+  {
+    icon: Linkedin,
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/in/andymethion/",
+  },
+]
+
+export default function Contact() {
+  const t = useTranslations("Contact")
+
+  const form = useForm<z.infer<typeof formSchema>>({
+    resolver: zodResolver(formSchema),
+    defaultValues: {
+      email: "",
+      subject: "",
+      message: "",
+    },
+  })
+
+  async function onSubmit(data: z.infer<typeof formSchema>) {
+    try {
+      await sendContactMessage(data.email, data.subject, data.message)
+      toast.success(t("successMessage"))
+    } catch (error) {
+      console.log(error)
+      toast.error(t("errorMessage"))
+    }
+  }
+
+  return (
+    <div className="flex flex-col gap-8">
+      <h2 className="text-center text-4xl font-bold">{t("contactMe")}</h2>
+      <form onSubmit={form.handleSubmit(onSubmit)} id="form">
+        <FieldGroup>
+          <Controller
+            name="email"
+            control={form.control}
+            render={({ field, fieldState }) => (
+              <Field data-invalid={fieldState.invalid}>
+                <FieldLabel htmlFor="email">
+                  {t("yourEmail")}
+                  <span className="text-destructive">*</span>
+                </FieldLabel>
+                <Input
+                  {...field}
+                  aria-invalid={fieldState.invalid}
+                  placeholder={t("yourEmail")}
+                  id="email"
+                />
+                {fieldState.invalid && (
+                  <FieldError errors={[fieldState.error]} />
+                )}
+              </Field>
+            )}
+          />
+          <Controller
+            name="subject"
+            control={form.control}
+            render={({ field, fieldState }) => (
+              <Field data-invalid={fieldState.invalid}>
+                <FieldLabel htmlFor="subject">
+                  {t("yourSubject")}
+                  <span className="text-destructive">*</span>
+                </FieldLabel>
+                <Input
+                  {...field}
+                  aria-invalid={fieldState.invalid}
+                  placeholder={t("yourSubject")}
+                  id="subject"
+                />
+                {fieldState.invalid && (
+                  <FieldError errors={[fieldState.error]} />
+                )}
+              </Field>
+            )}
+          />
+          <Controller
+            name="message"
+            control={form.control}
+            render={({ field, fieldState }) => (
+              <Field data-invalid={fieldState.invalid}>
+                <FieldLabel htmlFor="message">
+                  {t("yourMessage")}
+                  <span className="text-destructive">*</span>
+                </FieldLabel>
+                <Textarea
+                  {...field}
+                  aria-invalid={fieldState.invalid}
+                  placeholder={t("yourMessage")}
+                  id="message"
+                />
+                {fieldState.invalid && (
+                  <FieldError errors={[fieldState.error]} />
+                )}
+              </Field>
+            )}
+          />
+        </FieldGroup>
+      </form>
+      <Button form="form" type="submit">
+        {t("submit")}
+      </Button>
+      <div className="flex gap-4 *:flex-1">
+        {socials.map((social) => (
+          <Button key={social.name} variant="secondary" asChild>
+            <Link href={social.href} target="_blank">
+              <social.icon />
+              {social.name}
+            </Link>
+          </Button>
+        ))}
+      </div>
+    </div>
+  )
+}
