@@ -19,7 +19,7 @@ interface MyNavigationMenuLinkProps {
   item: string
 }
 
-const items = ["aboutMe", "myProjects", "myTechstack", "contactMe"]
+const items = ["biography", "projects", "techstack", "contact"]
 
 function MyNavigationMenuLink({ isMobile, item }: MyNavigationMenuLinkProps) {
   const t = useTranslations("Header")

@@ -61,16 +61,16 @@ export default function Contact() {
   async function onSubmit(data: z.infer<typeof formSchema>) {
     try {
       await sendContactMessage(data.email, data.subject, data.message)
-      toast.success(t("successMessage"))
+      toast.success(t("success"))
     } catch (error) {
       console.log(error)
-      toast.error(t("errorMessage"))
+      toast.error(t("error"))
     }
   }
 
   return (
     <div className="flex flex-col gap-8">
-      <h2 className="text-center text-4xl font-bold">{t("contactMe")}</h2>
+      <h2 className="text-center text-4xl font-bold">{t("contact")}</h2>
       <form onSubmit={form.handleSubmit(onSubmit)} id="form">
         <FieldGroup>
           <Controller
@@ -79,13 +79,13 @@ export default function Contact() {
             render={({ field, fieldState }) => (
               <Field data-invalid={fieldState.invalid}>
                 <FieldLabel htmlFor="email">
-                  {t("yourEmail")}
+                  {t("email")}
                   <span className="text-destructive">*</span>
                 </FieldLabel>
                 <Input
                   {...field}
                   aria-invalid={fieldState.invalid}
-                  placeholder={t("yourEmail")}
+                  placeholder={t("email")}
                   id="email"
                 />
                 {fieldState.invalid && (
@@ -100,13 +100,13 @@ export default function Contact() {
             render={({ field, fieldState }) => (
               <Field data-invalid={fieldState.invalid}>
                 <FieldLabel htmlFor="subject">
-                  {t("yourSubject")}
+                  {t("subject")}
                   <span className="text-destructive">*</span>
                 </FieldLabel>
                 <Input
                   {...field}
                   aria-invalid={fieldState.invalid}
-                  placeholder={t("yourSubject")}
+                  placeholder={t("subject")}
                   id="subject"
                 />
                 {fieldState.invalid && (
@@ -121,13 +121,13 @@ export default function Contact() {
             render={({ field, fieldState }) => (
               <Field data-invalid={fieldState.invalid}>
                 <FieldLabel htmlFor="message">
-                  {t("yourMessage")}
+                  {t("message")}
                   <span className="text-destructive">*</span>
                 </FieldLabel>
                 <Textarea
                   {...field}
                   aria-invalid={fieldState.invalid}
-                  placeholder={t("yourMessage")}
+                  placeholder={t("message")}
                   id="message"
                 />
                 {fieldState.invalid && (
