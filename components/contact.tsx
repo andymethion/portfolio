@@ -2,9 +2,9 @@
 
 import * as z from "zod"
 import { ReactNode } from "react"
-import Email from "./icons/email"
-import Github from "./icons/github"
-import Linkedin from "./icons/linkedin"
+import Email from "./brands/email"
+import Github from "./brands/github"
+import Linkedin from "./brands/linkedin"
 import { useTranslations } from "next-intl"
 import { Controller, useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
@@ -69,8 +69,8 @@ export default function Contact() {
   }
 
   return (
-    <div className="flex flex-col gap-8">
-      <h2 className="text-center text-4xl font-bold">{t("contact")}</h2>
+    <section className="flex flex-col gap-8" id="contact">
+      <h2 className="text-center text-4xl font-bold">{t("title")}</h2>
       <form onSubmit={form.handleSubmit(onSubmit)} id="form">
         <FieldGroup>
           <Controller
@@ -151,6 +151,6 @@ export default function Contact() {
           </Button>
         ))}
       </div>
-    </div>
+    </section>
   )
 }

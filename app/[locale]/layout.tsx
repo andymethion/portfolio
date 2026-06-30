@@ -6,6 +6,7 @@ import { routing } from "@/i18n/routing"
 import { notFound } from "next/navigation"
 import { cn } from "@/lib/utils"
 import { ThemeProvider } from "@/components/theme-provider"
+import { TooltipProvider } from "@/components/ui/tooltip"
 import { Toaster } from "@/components/ui/sonner"
 
 interface RootLayoutProps {
@@ -39,7 +40,7 @@ export default async function RootLayout({
       <body>
         <NextIntlClientProvider>
           <ThemeProvider defaultTheme="dark">
-            {children}
+            <TooltipProvider>{children}</TooltipProvider>
             <Toaster richColors />
           </ThemeProvider>
         </NextIntlClientProvider>

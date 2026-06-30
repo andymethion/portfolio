@@ -1,0 +1,42 @@
+export default function Angular() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 600 600">
+      <path
+        fill="url(#devicon-angular-icon-2-a)"
+        d="M583.4 100 563 421.4 367.3 0zM448 515.6 300 600l-147.9-84.4 30.1-72.9h235.6zM300 160l77.5 188.3h-155zM36.8 421.4 16.6 100 232.7 0z"
+      />
+      <path
+        fill="url(#devicon-angular-icon-3-b)"
+        d="M583.4 100 563 421.4 367.3 0zM448 515.6 300 600l-147.9-84.4 30.1-72.9h235.6zM300 160l77.5 188.3h-155zM36.8 421.4 16.6 100 232.7 0z"
+      />
+      <defs>
+        <linearGradient
+          id="devicon-angular-icon-2-a"
+          x1="14227.8"
+          x2="55401"
+          y1="54557.5"
+          y2="34991.3"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#E40035" />
+          <stop offset=".2" stopColor="#F60A48" />
+          <stop offset=".4" stopColor="#F20755" />
+          <stop offset=".5" stopColor="#DC087D" />
+          <stop offset=".7" stopColor="#9717E7" />
+          <stop offset="1" stopColor="#6C00F5" />
+        </linearGradient>
+        <linearGradient
+          id="devicon-angular-icon-3-b"
+          x1="12409.1"
+          x2="40564.6"
+          y1="7234.5"
+          y2="39352.1"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#FF31D9" />
+          <stop offset="1" stopColor="#FF5BE1" stopOpacity="0" />
+        </linearGradient>
+      </defs>
+    </svg>
+  )
+}

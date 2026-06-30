@@ -8,7 +8,7 @@ export default function Hero() {
   const t = useTranslations("Hero")
 
   return (
-    <div className="flex flex-col items-center gap-8">
+    <section className="flex flex-col items-center gap-8">
       <h1 className="text-center text-4xl font-bold text-balance">
         {t("title")}
       </h1>
@@ -27,6 +27,6 @@ export default function Hero() {
         src="/hero.png"
         alt="Hero Image"
       />
-    </div>
+    </section>
   )
 }

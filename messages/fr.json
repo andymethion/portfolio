@@ -10,8 +10,15 @@
     "title": "Je transforme mes idées en logiciels prêts à l'emploi.",
     "description": "Jeune développeur fullstack (mais surtout backend) passionné par la création de solutions logicielles efficaces et évolutives."
   },
+  "Techstack": {
+    "title": "Ma Stack Technique",
+    "database": "Base de données",
+    "frameworks": "Frameworks",
+    "languages": "Langages",
+    "mics": "Divers"
+  },
   "Contact": {
-    "contact": "Me Contacter",
+    "title": "Me Contacter",
     "email": "Votre Email",
     "subject": "Votre Sujet",
     "message": "Votre Message",
