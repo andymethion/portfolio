@@ -64,7 +64,7 @@ const categories: {
     name: "mics",
     cardClassName: "col-span-1 col-start-3 row-span-6 row-start-1",
     cardTitleClassName: "text-center",
-    cardContentClassName: "grid grid-cols-1 grid-rows-6 gap-4",
+    cardContentClassName: "grid h-full content-between gap-4",
   },
 ]
 
