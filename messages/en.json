@@ -10,6 +10,13 @@
     "title": "I turn my ideas into ready-to-use software.",
     "description": "A young full-stack developer (but primarily backend) who is passionate about creating efficient and scalable software solutions."
   },
+  "Biography": {
+    "title": "My Biography",
+    "first": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ut eligendi ipsum accusantium nesciunt? Impedit sint iure aliquam blanditiis! Fuga praesentium, tempora impedit laudantium ut enim dolor quas deleniti dolorum?",
+    "second": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla neque aperiam nisi beatae voluptatibus dolore consequatur corrupti, possimus hic, ut dolores! Cum ex quidem voluptatum rerum quis magnam illum ipsum.",
+    "third": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum sit magni modi vel hic quisquam pariatur. Placeat asperiores laborum voluptate odit minus eligendi quos expedita vel numquam! Quos, rerum. Numquam.",
+    "fourth": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque hic quasi amet nisi, exercitationem nulla quod odit, aperiam impedit dolorum dignissimos porro necessitatibus officiis repellendus! Eveniet asperiores quasi nobis deserunt!"
+  },
   "Techstack": {
     "title": "My Tech Stack",
     "database": "Database",

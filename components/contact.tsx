@@ -141,7 +141,7 @@ export default function Contact() {
       <Button form="form" type="submit">
         {t("submit")}
       </Button>
-      <div className="flex gap-4 *:flex-1">
+      <div className="flex gap-4 [&>a]:flex-1">
         {socials.map((social) => (
           <Button key={social.name} variant="secondary" asChild>
             <Link href={social.href} target="_blank">
