@@ -12,10 +12,11 @@
   },
   "Biography": {
     "title": "My Biography",
-    "first": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ut eligendi ipsum accusantium nesciunt? Impedit sint iure aliquam blanditiis! Fuga praesentium, tempora impedit laudantium ut enim dolor quas deleniti dolorum?",
-    "second": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla neque aperiam nisi beatae voluptatibus dolore consequatur corrupti, possimus hic, ut dolores! Cum ex quidem voluptatum rerum quis magnam illum ipsum.",
-    "third": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum sit magni modi vel hic quisquam pariatur. Placeat asperiores laborum voluptate odit minus eligendi quos expedita vel numquam! Quos, rerum. Numquam.",
-    "fourth": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque hic quasi amet nisi, exercitationem nulla quod odit, aperiam impedit dolorum dignissimos porro necessitatibus officiis repellendus! Eveniet asperiores quasi nobis deserunt!"
+    "first": "My journey began in my teens when I created my first websites and Python scripts, marking the start of a true passion for computer science. It was through numerous personal projects that I developed my independence, approaching each new project as a software challenge to tackle.",
+    "second": "Although I am capable of working on all aspects of an application, it is in backend engineering that I thrive the most. I enjoy designing robust architectures, optimizing complex algorithms, modeling seamless APIs, and ensuring that an application’s business logic is scalable, secure, and fast.",
+    "third": "My approach to development goes far beyond just writing code. I take a keen interest in the entire software ecosystem: from containerization with Docker to code quality through unit testing. My goal is always to adopt best practices to ensure clean, reliable, and easy-to-maintain applications.",
+    "fourth": "I’m naturally curious and enjoy exploring new technologies and development paradigms. This allows me to stay up to date on the latest trends and provide solutions tailored to my projects. I’m looking to apply these skills to ambitious projects within dynamic teams.",
+    "resume": "Download my Resume"
   },
   "Techstack": {
     "title": "My Tech Stack",

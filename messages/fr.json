@@ -12,10 +12,11 @@
   },
   "Biography": {
     "title": "Ma Biographie",
-    "first": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ut eligendi ipsum accusantium nesciunt? Impedit sint iure aliquam blanditiis! Fuga praesentium, tempora impedit laudantium ut enim dolor quas deleniti dolorum?",
-    "second": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla neque aperiam nisi beatae voluptatibus dolore consequatur corrupti, possimus hic, ut dolores! Cum ex quidem voluptatum rerum quis magnam illum ipsum.",
-    "third": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum sit magni modi vel hic quisquam pariatur. Placeat asperiores laborum voluptate odit minus eligendi quos expedita vel numquam! Quos, rerum. Numquam.",
-    "fourth": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque hic quasi amet nisi, exercitationem nulla quod odit, aperiam impedit dolorum dignissimos porro necessitatibus officiis repellendus! Eveniet asperiores quasi nobis deserunt!"
+    "first": "Mon parcours a commencé dès l'adolescence avec la création de mes premiers sites internet et scripts Python, marquant le début d'une véritable passion pour l'informatique. C'est à travers de nombreux projets personnels que j'ai développé mon autonomie, abordant chaque nouvelle réalisation comme un défi logiciel à relever.",
+    "second": "Bien que je sois capable d'intervenir sur l'ensemble d'une application, c'est dans l'ingénierie backend que je m'épanouis le plus. J'aime concevoir des architectures robustes, optimiser des algorithmes complexes, modéliser des APIs fluides et m'assurer que la logique métier d'une application est à la fois évolutive, sécurisée et rapide.",
+    "third": "Mon approche du développement va bien au-delà de l'écriture du code. Je m'intéresse de près à tout l'écosystème logiciel : de la conteneurisation avec Docker jusqu'à la qualité du code via les tests unitaires. Mon objectif est toujours d'adopter les meilleures pratiques pour garantir des applications propres, fiables et faciles à maintenir.",
+    "fourth": "Curieux de nature, j'aime explorer de nouvelles technologies et paradigmes de développement. Cela me permet de rester à jour sur les dernières tendances et d'apporter des solutions adaptées à mes projets. Aujourd'hui, je cherche à mettre ces compétences au service de projets ambitieux au sein d'équipes dynamiques.",
+    "resume": "Télécharger mon Curriculum Vitae"
   },
   "Techstack": {
     "title": "Ma Stack Technique",

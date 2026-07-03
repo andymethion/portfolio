@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl"
 import { Button } from "./ui/button"
 import Link from "next/link"
-import { Copy } from "lucide-react"
+import { Mail } from "lucide-react"
 import Image from "next/image"
 
 export default function Hero() {
@@ -13,9 +13,9 @@ export default function Hero() {
         {t("title")}
       </h1>
       <p className="text-center text-balance">{t("description")}</p>
-      <Button variant="secondary" asChild>
+      <Button asChild>
         <Link href="mailto:andymethion@gmail.com">
-          <Copy />
+          <Mail />
           andymethion@gmail.com
         </Link>
       </Button>

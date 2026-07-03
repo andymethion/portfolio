@@ -1,8 +1,8 @@
 "use client"
 
 import * as z from "zod"
-import { ReactNode } from "react"
-import Email from "./brands/email"
+import { ComponentType, SVGProps } from "react"
+import { Mail } from "lucide-react"
 import Github from "./brands/github"
 import Linkedin from "./brands/linkedin"
 import { useTranslations } from "next-intl"
@@ -17,7 +17,7 @@ import { Button } from "./ui/button"
 import Link from "next/link"
 
 interface Social {
-  icon: () => ReactNode
+  icon: ComponentType<SVGProps<SVGSVGElement>>
   name: string
   href: string
 }
@@ -30,7 +30,7 @@ const formSchema = z.object({
 
 const socials: Social[] = [
   {
-    icon: Email,
+    icon: Mail,
     name: "Email",
     href: "mailto:andymethion@gmail.com",
   },

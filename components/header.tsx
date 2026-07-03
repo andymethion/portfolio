@@ -39,7 +39,7 @@ function MyNavigationMenu({ isMobile }: MyNavigationMenuProps) {
 
   return (
     <NavigationMenu className={navigationMenuClassName}>
-      <NavigationMenuList className={isMobile ? "flex-col" : ""}>
+      <NavigationMenuList className={`gap-2 ${isMobile ? "flex-col" : ""}`}>
         {items.map((item) => (
           <NavigationMenuItem key={item} className={isMobile ? "w-full" : ""}>
             {isMobile ? (
@@ -61,7 +61,9 @@ export default function Header() {
 
   return (
     <header className="mx-auto flex h-14 w-9/10 items-center justify-between md:w-2xl">
-      <p className="font-medium">{t("title")}</p>
+      <Link className="font-medium" href="/">
+        {t("title")}
+      </Link>
       <Drawer>
         <DrawerTrigger className="md:hidden">
           <Menu />
