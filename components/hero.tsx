@@ -24,7 +24,7 @@ export default function Hero() {
         loading="eager"
         width={1458}
         height={1508}
-        src="/hero.png"
+        src="/hero.webp"
         alt="Hero Image"
       />
     </section>

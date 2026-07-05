@@ -18,6 +18,21 @@
     "fourth": "Curieux de nature, j'aime explorer de nouvelles technologies et paradigmes de développement. Cela me permet de rester à jour sur les dernières tendances et d'apporter des solutions adaptées à mes projets. Aujourd'hui, je cherche à mettre ces compétences au service de projets ambitieux au sein d'équipes dynamiques.",
     "resume": "Télécharger mon Curriculum Vitae"
   },
+  "Projects": {
+    "title": "Mes Projets",
+    "sqoot": {
+      "title": "Sqoot - Application de Quiz Interactif",
+      "description": "Développement d’une application en Angular et Spring Boot de quiz interactif inspirée de Kahoot. L’application aide à dynamiser la vie en entreprise, en plus de servir d’outil d’animation lors des différents salons professionnels."
+    },
+    "the-shit-bot": {
+      "title": "The Shit Bot - Application de Bureau",
+      "description": "Refonte intégrale du frontend de leur application de bureau en Angular et Electron. À partir de nouvelles maquettes, j'ai veillé à reconstruire toute l'interface graphique de zéro pour corriger les défauts d'ergonomie de l'ancienne version."
+    },
+    "twitter": {
+      "title": "Twitter - Social Media Marketing (SMM)",
+      "description": "Développement et vente de scripts Python conçus pour automatiser la croissance de comptes Twitter via de faux profils, en simulant fidèlement le trafic HTTP du navigateur pour contourner les systèmes de détection."
+    }
+  },
   "Techstack": {
     "title": "Ma Stack Technique",
     "database": "Base de données",

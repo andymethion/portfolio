@@ -16,7 +16,22 @@
     "second": "Although I am capable of working on all aspects of an application, it is in backend engineering that I thrive the most. I enjoy designing robust architectures, optimizing complex algorithms, modeling seamless APIs, and ensuring that an application’s business logic is scalable, secure, and fast.",
     "third": "My approach to development goes far beyond just writing code. I take a keen interest in the entire software ecosystem: from containerization with Docker to code quality through unit testing. My goal is always to adopt best practices to ensure clean, reliable, and easy-to-maintain applications.",
     "fourth": "I’m naturally curious and enjoy exploring new technologies and development paradigms. This allows me to stay up to date on the latest trends and provide solutions tailored to my projects. I’m looking to apply these skills to ambitious projects within dynamic teams.",
-    "resume": "Download my Resume"
+    "resume": "Download my Curriculum Vitae"
+  },
+  "Projects": {
+    "title": "My Projects",
+    "sqoot": {
+      "title": "Sqoot - Interactive Quiz Application",
+      "description": "Development of an interactive quiz app using Angular and Spring Boot, inspired by Kahoot. The app helps energize the workplace and also serves as an engagement tool at various trade shows."
+    },
+    "the-shit-bot": {
+      "title": "The Shit Bot - Desktop Application",
+      "description": "Complete redesign of the front end of their desktop application using Angular and Electron. Based on new mockups, I rebuilt the entire user interface from scratch to address the usability issues in the previous version."
+    },
+    "twitter": {
+      "title": "Twitter - Social Media Marketing (SMM)",
+      "description": "Development and sale of Python scripts designed to automate the growth of Twitter accounts using fake profiles, by accurately simulating browser HTTP traffic to bypass detection systems."
+    }
   },
   "Techstack": {
     "title": "My Tech Stack",
