@@ -21,16 +21,32 @@
   "Projects": {
     "title": "Mes Projets",
     "sqoot": {
-      "title": "Sqoot - Application de Quiz Interactif",
-      "description": "Développement d’une application en Angular et Spring Boot de quiz interactif inspirée de Kahoot. L’application aide à dynamiser la vie en entreprise, en plus de servir d’outil d’animation lors des différents salons professionnels."
+      "title": "Sqoot - Plateforme de Quiz Interactif",
+      "description": "Conception et développement d’une application de quiz inspirée de Kahoot, propulsée par Angular et Spring Boot. Conçu pour dynamiser la vie de bureau et animer des salons professionnels, ce projet met l'accent sur l'interactivité et une expérience utilisateur fluide."
     },
-    "the-shit-bot": {
+    "tcpFileTransferServer": {
+      "title": "Serveur de Transfert de Fichiers TCP",
+      "description": "Développement en Golang d'une architecture client-serveur hautement concurrente dédiée au transfert de fichiers. Le système gère simultanément les requêtes de multiples clients via le protocole TCP, tout en isolant les commandes d'administration sur un port sécurisé."
+    },
+    "legoStore": {
+      "title": "Lego Store - Boutique E-Commerce",
+      "description": "Réalisation complète d'une plateforme de commerce électronique en PHP dédiée à l'univers Lego. Le projet intègre un tunnel de commande complet pour les utilisateurs ainsi qu'un back-office d'administration permettant la gestion dynamique du catalogue de produits."
+    },
+    "guessWho": {
+      "title": "Qui Est-Ce ? - Jeu Multijoueur",
+      "description": "Développement d'une application native en Kotlin et JavaFX revisitant le célèbre jeu de société. Le projet repose sur une architecture multijoueur synchrone, permettant à deux utilisateurs de s'affronter en temps réel à travers un système de questions-réponses."
+    },
+    "quadtree": {
+      "title": "Quadtree - Optimisation de Moteur 2D",
+      "description": "Développement en Golang d'un environnement de jeu 2D optimisé par la structure de données Quadtree. L'implémentation segmente dynamiquement l'espace en quadrants pour optimiser l'affichage graphique et réduire drastiquement l'empreinte mémoire."
+    },
+    "theShitBot": {
       "title": "The Shit Bot - Application de Bureau",
-      "description": "Refonte intégrale du frontend de leur application de bureau en Angular et Electron. À partir de nouvelles maquettes, j'ai veillé à reconstruire toute l'interface graphique de zéro pour corriger les défauts d'ergonomie de l'ancienne version."
+      "description": "Refonte intégrale de l'interface graphique d'une application de bureau via Angular et Electron. À partir de maquettes modernes, j'ai reconstruit l'ensemble du frontend de zéro pour optimiser l'ergonomie, la réactivité et l'expérience utilisateur."
     },
     "twitter": {
       "title": "Twitter - Social Media Marketing (SMM)",
-      "description": "Développement et vente de scripts Python conçus pour automatiser la croissance de comptes Twitter via de faux profils, en simulant fidèlement le trafic HTTP du navigateur pour contourner les systèmes de détection."
+      "description": "Développement et commercialisation de scripts Python spécialisés dans l'automatisation de comptes. Le programme simule fidèlement le trafic HTTP et les comportements d'un navigateur réel afin de contourner les systèmes de détection et de sécurité."
     }
   },
   "Techstack": {

@@ -21,16 +21,32 @@
   "Projects": {
     "title": "My Projects",
     "sqoot": {
-      "title": "Sqoot - Interactive Quiz Application",
-      "description": "Development of an interactive quiz app using Angular and Spring Boot, inspired by Kahoot. The app helps energize the workplace and also serves as an engagement tool at various trade shows."
+      "title": "Sqoot - Interactive Quiz Platform",
+      "description": "Design and development of a Kahoot-inspired quiz app powered by Angular and Spring Boot. Designed to liven up the office environment and energize trade shows, this project emphasizes interactivity and a seamless user experience."
     },
-    "the-shit-bot": {
+    "tcpFileTransferServer": {
+      "title": "TCP File Transfer Server",
+      "description": "Development in Go of a highly concurrent client-server architecture designed for file transfer. The system simultaneously handles requests from multiple clients via the TCP protocol, while isolating administrative commands on a secure port."
+    },
+    "legoStore": {
+      "title": "Lego Store - E-Commerce Store",
+      "description": "Complete development of a PHP-based e-commerce platform dedicated to the Lego universe. The project includes a full-featured checkout process for users as well as an administrative back office that enables dynamic management of the product catalog."
+    },
+    "guessWho": {
+      "title": "Guess Who? - Multiplayer Game",
+      "description": "Development of a native app in Kotlin and JavaFX that reimagines the famous board game. The project is based on a synchronous multiplayer architecture, allowing two users to compete in real time through a question-and-answer system."
+    },
+    "quadtree": {
+      "title": "Quadtree - 2D Engine Optimization",
+      "description": "Development in Go of a 2D game environment optimized using the quadtree data structure. The implementation dynamically divides the space into quadrants to optimize graphics rendering and drastically reduce memory usage."
+    },
+    "theShitBot": {
       "title": "The Shit Bot - Desktop Application",
-      "description": "Complete redesign of the front end of their desktop application using Angular and Electron. Based on new mockups, I rebuilt the entire user interface from scratch to address the usability issues in the previous version."
+      "description": "Complete redesign of the graphical user interface for a desktop application using Angular and Electron. Based on modern mockups, I rebuilt the entire front end from scratch to optimize usability, responsiveness, and the user experience."
     },
     "twitter": {
       "title": "Twitter - Social Media Marketing (SMM)",
-      "description": "Development and sale of Python scripts designed to automate the growth of Twitter accounts using fake profiles, by accurately simulating browser HTTP traffic to bypass detection systems."
+      "description": "Development and marketing of Python scripts specialized in account automation. The program accurately simulates HTTP traffic and the behavior of a real browser in order to bypass detection and security systems."
     }
   },
   "Techstack": {

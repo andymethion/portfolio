@@ -16,9 +16,29 @@ const projects: Project[] = [
     name: "sqoot",
   },
   {
+    image: "/tcp-file-transfer-server.webp",
+    url: "https://github.com/andymethion/tcp-file-transfer-server",
+    name: "tcpFileTransferServer",
+  },
+  {
+    image: "/lego-store.webp",
+    url: "https://github.com/andymethion/lego-store",
+    name: "legoStore",
+  },
+  {
+    image: "/guess-who.webp",
+    url: "https://github.com/andymethion/guess-who",
+    name: "guessWho",
+  },
+  {
+    image: "/quadtree.webp",
+    url: "https://github.com/andymethion/quadtree",
+    name: "quadtree",
+  },
+  {
     image: "/the-shit-bot.webp",
     url: "https://theshitbot.com/",
-    name: "the-shit-bot",
+    name: "theShitBot",
   },
   {
     image: "/twitter.webp",
@@ -39,7 +59,7 @@ export default function Projects() {
             <Link href={project.url} target="_blank">
               <div className="relative aspect-video w-full">
                 <Image
-                  className="rounded-md"
+                  className="rounded-md object-cover"
                   fill={true}
                   src={project.image}
                   alt={t(`${project.name}.title`)}
